@@ -79,6 +79,7 @@ public class ConvertirAMorse {
             case 'z' : letterConveted = "--..";
                 break;
             default: letterConveted = "letter no defined in Morse code";
+                break;
         }
 
         return letterConveted;
